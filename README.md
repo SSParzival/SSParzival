@@ -1,6 +1,12 @@
 ### Hi there 👋
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  ![SSParzival's GitHub stats](https://github-readme-stats.vercel.app/api?username=SSParzival&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=radical)
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SSParzival)](https://github.com/anuraghazra/github-readme-stats)
+</a>
 
-[![SSParzival's GitHub stats](https://github-readme-stats.vercel.app/api?username=SSParzival)](https://github.com/anuraghazra/github-readme-stats)
+
 <!--
 **SSParzival/SSParzival** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
