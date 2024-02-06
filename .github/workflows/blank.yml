@@ -23,5 +23,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     # Icon displayed at top of SVG to left and right of title
-    top-icon: # optional, default is default
           
