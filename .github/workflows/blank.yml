@@ -1,24 +1,44 @@
-name: user-statistician
-
-on:
-  schedule:
-    - cron: '0 3 * * *'
-  workflow_dispatch:
-
-jobs:
-  stats:
-    runs-on: ubuntu-latest
-      
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Generate the user stats image
-      uses: cicirello/user-statistician@v1
-      with:
-        colors: dark-dimmed
-        custom-title: My GitHub Statistics
-        hide-keys: joined, mostStarred, mostForked, followers, following, private
-        max-languages: 100
-        animated-language-chart: true
-      env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+            - name: SSParzival
+  # You may pin to the exact commit or the version.
+  # uses: cicirello/user-statistician@351b0a020d4aa89b11f686eb3f291b505b3c73a3
+  uses: 
+  with:
+    # Name and path of the image file to generate, relative to root of repository
+    image-file: # optional, default is images/userstats.svg
+    # Include a title in the image
+    include-title: # optional, default is true
+    # Define a custom title for the image
+    custom-title: # optional, default is 
+    # The color theme or list of custom colors
+    colors: # optional, default is light
+    # A list of statistics to hide specified by their key
+    hide-keys: # optional, default is 
+    # Choose whether to fail the workflow if there is an error
+    fail-on-error: # optional, default is true
+    # Commits and pushes the generated image
+    commit-and-push: # optional, default is true
+    # ISO 639-1 two character language code
+    locale: # optional, default is en
+    # The radius of the border
+    border-radius: # optional, default is 6
+    # Controls whether the stats SVG has a border
+    show-border: # optional, default is true
+    # Controls size of title
+    small-title: # optional
+    # Controls maximum number of languages to list separately
+    max-languages: # optional, default is auto
+    # List of keys for the categories in order of appearance.
+    category-order: # optional, default is general, repositories, contributions, languages
+    # List of repositories to exclude from language stats.
+    language-repository-exclusions: # optional, default is 
+    # Name of a repository to feature in the General Stats and Info section
+    featured-repository: # optional, default is 
+    # Boolean controlling whether the language chart is animated
+    animated-language-chart: # optional
+    # The time for one full rotation in seconds
+    language-animation-speed: # optional, default is 10
+    # The minimum width of the SVG in pixels
+    image-width: # optional, default is 0
+    # Icon displayed at top of SVG to left and right of title
+    top-icon: # optional, default is default
+          
