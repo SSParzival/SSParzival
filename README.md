@@ -1,5 +1,3 @@
-### Hi there 👋
-
 In other words, your fate... no, the fate the two of you share... traps you in an inescapable dead end, a hell of fate, with a 2,578,917 out of 2,578,917 probability. To put it another way, it's a certain fate, with absolutely no chance for a miracle!
 
 What a person's life means, what it's worth, what it is... these are things each person decides for themselves. No matter what sort of fate is forced upon them. Don't accept it. Create your own world... for yourself...!
